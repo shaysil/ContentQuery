@@ -1,0 +1,57 @@
+{
+  "name": "contentquery",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "clean": "gulp clean",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "@microsoft/sp-core-library": "^1.8.0",
+    "@microsoft/sp-lodash-subset": "1.8.0",
+    "@microsoft/sp-office-ui-fabric-core": "1.8.0",
+    "@microsoft/sp-property-pane": "1.8.0",
+    "@microsoft/sp-webpart-base": "1.8.0",
+    "@types/es6-promise": "0.0.33",
+    "@types/handlebars": "4.0.32",
+    "@types/react": "16.4.2",
+    "@types/react-addons-shallow-compare": "0.14.17",
+    "@types/react-addons-test-utils": "0.14.15",
+    "@types/react-addons-update": "0.14.14",
+    "@types/react-dom": "16.0.5",
+    "@types/webpack-env": "^1.13.9",
+    "file-system": "^2.2.2",
+    "fs-exists-sync": "^0.1.0",
+    "handlebars": "^4.0.6",
+    "handlebars-helpers": "^0.8.2",
+    "moment": "^2.18.1",
+    "office-ui-fabric-react": "^5.135.0",
+    "phantomjs-prebuilt": "^2.1.14",
+    "react": "16.7.0",
+    "react-ace": "^7.0.2",
+    "react-dom": "16.7.0",
+    "webpack-env": "^0.8.0"
+  },
+  "resolutions": {
+    "@types/react": "16.4.2"
+  },
+  "devDependencies": {
+    "@microsoft/rush-stack-compiler-2.7": "0.4.0",
+    "@microsoft/sp-build-web": "1.8.0",
+    "@microsoft/sp-module-interfaces": "1.8.0",
+    "@microsoft/sp-tslint-rules": "1.8.0",
+    "@microsoft/sp-webpart-workbench": "1.8.0",
+    "@types/chai": "3.4.34",
+    "@types/mocha": "2.2.38",
+    "ajv": "~5.2.2",
+    "awesome-typescript-loader": "^3.2.1",
+    "gulp": "^3.9.1",
+    "unlazy-loader": "^0.1.2",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.4"
+  }
+}
